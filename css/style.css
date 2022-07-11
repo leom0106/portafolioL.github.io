@@ -1,0 +1,217 @@
+
+body{
+    box-shadow: -1px 1px 7px 5px rgb(0, 238, 255);
+    border-radius: 40px;
+    padding: 10px;
+    background-image: url(https://us.123rf.com/450wm/stockphotoatinat/stockphotoatinat1801/stockphotoatinat180100024/94349661-l%C3%ADnea-dise%C3%B1o-abstracto-del-fondo-de-la-electricidad-de-la-tecnolog%C3%ADa-del-circuito-.jpg?ver=6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    gap: 40px;
+        
+}
+
+.Menu{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px; 
+    background-image: linear-gradient(rgba(5,7,12 ,0.75), rgba(5,7,12,0.75)) , url(https://previews.123rf.com/images/marishaz/marishaz1604/marishaz160400010/55225781-dibujo-circuito-electr%C3%B3nico-moderno-en-el-patr%C3%B3n-de-las-c%C3%A9lulas-y-el-fondo-azul-brillante.jpg);
+    background-position: center;
+    border-radius: 20px;
+}   
+.Portafolio{
+    color: rgb(216, 215, 226);
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home{
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+   
+button{
+    background-color: white;
+    height: 30px;
+    width: 130px;
+    border-radius: 30px;
+    border-color: aqua;
+    border-style: outset;
+}
+
+
+.Presentacion{
+    box-shadow: -1px 1px 7px 5px rgb(0, 238, 255);
+    border-radius: 40px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    grid-template-columns: auto auto;
+}
+.foto{
+    border-radius: 80px;
+}
+
+.MasInfo{
+    box-shadow: -1px 1px 7px 5px rgb(0, 247, 255);
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    color: white;
+    justify-content: center;   
+}
+
+.Info1{
+    color: rgb(27, 233, 216);
+}
+.servicios{
+    box-shadow: -1px 1px 7px 5px rgb(0, 247, 255);
+    border-radius: 10px;
+    padding: 10px;    
+    color: white;
+}
+.Servi{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    color: white;
+    
+    
+}
+.Servi span{
+    font-size: 30px;
+}
+.M{
+    
+    background-image: url(https://sotein.com.co/wp-content/uploads/2019/04/Arreglo-de-computadoras-1.jpg);
+    background-position: center;
+    height: 270px;
+    border-radius: 30px;
+}
+
+.S{
+    background-image:  url(https://thumbs.dreamstime.com/b/servicio-de-equipo-reparaci%C3%B3n-tecnol%C3%B3gica-equipos-electr%C3%B3nicos-pc-t%C3%A9cnico-ingeniero-hombre-hacer-mantenimiento-hardware-222688347.jpg);
+    background-position: center;
+    height: 200px;
+    border-radius: 30px;
+
+}
+
+.D{
+    background-image: url(https://www.sagrado.edu/wp-content/uploads/Desarrollo-Aplicaciones-Web.jpg);
+    background-position: center;
+    height: 200px;
+    border-radius: 30px;
+
+}
+
+.I{
+    background-image: url(https://st2.depositphotos.com/2403851/6411/i/450/depositphotos_64115865-stock-photo-installing-mount-tv.jpg);
+    background-position: center;
+    color: white;
+    height: 200px;
+    border-radius: 30px;
+
+}
+
+.pasa{
+    box-shadow: -1px 1px 7px 5px rgb(0, 247, 255);
+    border-radius: 10px;
+    padding: 10px;    
+    color: white;
+}
+.Pasa{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 20px;
+    color: white;
+    
+    
+}
+.Pasa span{
+    font-size: 30px;
+}
+.Ar{
+    
+    background-image: url(../images/tv.jpeg);
+    border-style: outset;
+    border-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 30px;
+    
+}
+.Doy-1{
+    
+    background-image: url(../images/ps4.jpeg);
+    border-style: outset;
+    border-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 30px;
+    width: 250px;
+}
+.Doy-2{
+    
+    background-image: url(../images/compu.jpeg);
+    border-style: outset;
+    border-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.Pa{
+    
+    background-image: url(../images/amigos.jpeg);
+    border-style: outset;
+    border-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.R{
+    
+    background-image: url(../images/futbol.jpeg);
+    border-style: outset;
+    border-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 30px;
+}
+.Co{
+    
+    background-image: url(../images/coleccion.jpeg);
+    border-style: outset;
+    border-color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 30px;
+    
+}
